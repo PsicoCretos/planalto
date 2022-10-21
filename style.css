@@ -84,3 +84,47 @@
     rgb(211, 232, 26) 99%
   ); */
 }
+
+.button #enter {
+  display: flex;
+  background-image: linear-gradient(
+    to right,
+    #16a085 0%,
+    #a6bf02 51%,
+    #16a085 100%
+  );
+  margin: auto;
+  padding: auto;
+  width: 444px;
+  height: 55px;
+  font-size: 1.1rem;
+  font-weight: 900;
+  text-align: center;
+  justify-items: auto;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 10px;
+  display: block;
+  border-style: none;
+}
+
+.button #enter:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}
+.button {
+  /* display: flex; */
+  /* position: relative; */
+  /* justify-content: flex-end; */
+  /* padding-top: 20px; */
+  height: 1px;
+  background-color: rgb(255, 255, 255);
+  justify-content: flex-start;
+}
+
+.content-button {
+  display: flex;
+}
