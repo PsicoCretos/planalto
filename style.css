@@ -3,6 +3,22 @@
   height: 1200px;
 } */
 
+#hr1 {
+  background: linear-gradient(
+    48deg,
+    rgba(35, 158, 217, 1) -5%,
+    rgba(24, 143, 69, 1) 35%,
+    rgb(211, 232, 26) 99%
+  );
+  height: 7px;
+  margin: 10px;
+  /* border-radius: 10px; */
+}
+
+#link {
+  /* cursor: pointer; */
+  color: black;
+}
 #login {
   background-repeat: no-repeat;
   background-size: 100%;
